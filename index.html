@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dashboard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="table-top">
+      <h3>All Invoices</h3>
+      <table>
+        <tr>
+          <td>Begin Date</td>
+          <td>End Date</td>
+          <td>Status</td>
+          <td>Client</td>
+        </tr>
+        <tr>
+          <td>
+            <button type="button" class="btn btn-1" onclick="searchbyDate()">
+              08/01/2023 <i class="fa fa-light fa-calendar"></i>
+            </button>
+          </td>
+          <td>
+            <button type="button" class="btn btn-1">
+              08/02/2023 <i class="fa fa-light fa-calendar"></i>
+            </button>
+          </td>
+          <td>
+            <!-- <div class="dropdown">
+              <button
+                class="btn btn-2 dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                onclick="getStatus()"
+              >
+                Any Status <i class="fa fa-circle-chevron-down"></i>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item status-dropdown" href="#">Draft</a>
+                <a class="dropdown-item status-dropdown" href="#">Paid</a>
+                <a class="dropdown-item status-dropdown" href="#"
+                  >Partial Payment</a
+                >
+              </div>
+            </div> -->
+            <form>
+              <select
+                id="ddlViewBy"
+                class="btn btn-2 dropdown-toggle"
+                onchange="getStatusValue()"
+              >
+                <option value="" selected="selected">Any</option>
+                <option value="Draft">Draft</option>
+                <option value="Paid">Paid</option>
+                <option value="Partial Payment">Partial Payment</option>
+              </select>
+            </form>
+          </td>
+          <td>
+            <!-- <div class="dropdown">
+              <button
+                class="btn btn-3 dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+              >
+                Any <i class="fa fa-circle-chevron-down"></i>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">In-state</a>
+                <a class="dropdown-item" href="#">Out-state</a>
+              </div>
+            </div> -->
+            <form>
+              <select
+                id="ddlViewBy1"
+                class="btn btn-2 dropdown-toggle"
+                onchange="getClientType()"
+              >
+                <option value="" selected="selected">Any</option>
+                <option value="In-state">In-State</option>
+                <option value="Out-state">Out-State</option>
+              </select>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- Data table -->
+    <div class="table-two">
+      <table class="table table-hover">
+        <thead>
+          <tr class="tr-new">
+            <th class="th-new">
+              Invoice
+              <span
+                ><i
+                  class="fa fa-light fa-sort"
+                  style="color: rgb(170, 170, 170)"
+                ></i
+              ></span>
+            </th>
+            <th class="th-new">
+              Client Name
+              <span
+                ><i
+                  class="fa fa-thin fa-sort"
+                  style="color: rgb(170, 170, 170)"
+                ></i
+              ></span>
+            </th>
+            <th class="th-new">
+              Client Type
+              <span
+                ><i
+                  class="fa fa-thin fa-sort"
+                  style="color: rgb(170, 170, 170)"
+                ></i
+              ></span>
+            </th>
+            <th class="th-new">
+              Date
+              <span
+                ><i
+                  class="fa fa-thin fa-sort"
+                  style="color: rgb(170, 170, 170)"
+                ></i
+              ></span>
+            </th>
+            <th class="th-new">
+              Due date
+              <span
+                ><i
+                  class="fa fa-thin fa-sort"
+                  style="color: rgb(170, 170, 170)"
+                ></i
+              ></span>
+            </th>
+            <th class="th-new">
+              Total
+              <span
+                ><i class="fa fa-thin fa-sort" style="color: gray"></i
+              ></span>
+            </th>
+            <th class="th-new">
+              Balance
+              <span
+                ><i class="fa fa-thin fa-sort" style="color: gray"></i
+              ></span>
+            </th>
+            <th class="th-new">
+              Status
+              <span
+                ><i class="fa fa-thin fa-sort" style="color: gray"></i
+              ></span>
+            </th>
+          </tr>
+        </thead>
+        <tbody class="table-bottom" id="data-output"></tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

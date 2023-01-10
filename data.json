@@ -1,0 +1,202 @@
+[
+  {
+    "invoice": 1,
+    "client_name": "Kurtis Pareman",
+    "client_type": "In-state",
+    "date": "19/12/2022",
+    "due_date": "28/03/2023",
+    "total": 768.9,
+    "balance": 945.6,
+    "status": "Draft"
+  },
+  {
+    "invoice": 2,
+    "client_name": "Mariette Alesin",
+    "client_type": "Out-state",
+    "date": "18/11/2022",
+    "due_date": "12/02/2023",
+    "total": 572.4,
+    "balance": 630.7,
+    "status": "Paid"
+  },
+  {
+    "invoice": 3,
+    "client_name": "Cherilyn Hadcock",
+    "client_type": "In-state",
+    "date": "30/12/2022",
+    "due_date": "10/02/2023",
+    "total": 569,
+    "balance": 128,
+    "status": "Partial Payment"
+  },
+  {
+    "invoice": 4,
+    "client_name": "Brittney McNutt",
+    "client_type": "Out-state",
+    "date": "09/12/2022",
+    "due_date": "12/03/2023",
+    "total": 943.7,
+    "balance": 314.6,
+    "status": "Draft"
+  },
+  {
+    "invoice": 5,
+    "client_name": "Marcy Elliott",
+    "client_type": "In-state",
+    "date": "03/12/2022",
+    "due_date": "05/03/2023",
+    "total": 149.7,
+    "balance": 680.8,
+    "status": "Paid"
+  },
+  {
+    "invoice": 6,
+    "client_name": "Anica Madsen",
+    "client_type": "Out-state",
+    "date": "26/01/2023",
+    "due_date": "02/03/2023",
+    "total": 158.5,
+    "balance": 423.6,
+    "status": "Partial Payment"
+  },
+  {
+    "invoice": 7,
+    "client_name": "Gracia Gooders",
+    "client_type": "In-state",
+    "date": "04/11/2022",
+    "due_date": "29/03/2023",
+    "total": 882.5,
+    "balance": 181.3,
+    "status": "Draft"
+  },
+  {
+    "invoice": 8,
+    "client_name": "Mile Akeherst",
+    "client_type": "Out-state",
+    "date": "04/11/2022",
+    "due_date": "10/02/2023",
+    "total": 899.6,
+    "balance": 898.9,
+    "status": "Paid"
+  },
+  {
+    "invoice": 9,
+    "client_name": "Isabelle Oseman",
+    "client_type": "In-state",
+    "date": "30/11/2022",
+    "due_date": "06/02/2023",
+    "total": 443.1,
+    "balance": 390.2,
+    "status": "Partial Payment"
+  },
+  {
+    "invoice": 10,
+    "client_name": "Augustine Sleeford",
+    "client_type": "Out-state",
+    "date": "08/12/2022",
+    "due_date": "19/03/2023",
+    "total": 677.1,
+    "balance": 533.1,
+    "status": "Draft"
+  },
+  {
+    "invoice": 11,
+    "client_name": "Daveen Garforth",
+    "client_type": "In-state",
+    "date": "28/01/2023",
+    "due_date": "21/03/2023",
+    "total": 814.4,
+    "balance": 343,
+    "status": "Paid"
+  },
+  {
+    "invoice": 12,
+    "client_name": "Lew McQuin",
+    "client_type": "Out-state",
+    "date": "23/01/2023",
+    "due_date": "03/02/2023",
+    "total": 961.8,
+    "balance": 156.8,
+    "status": "Partial Payment"
+  },
+  {
+    "invoice": 13,
+    "client_name": "Frederick Skowcraft",
+    "client_type": "In-state",
+    "date": "16/11/2022",
+    "due_date": "21/03/2023",
+    "total": 355.7,
+    "balance": 617.8,
+    "status": "Draft"
+  },
+  {
+    "invoice": 14,
+    "client_name": "Dasie Reisk",
+    "client_type": "Out-state",
+    "date": "07/12/2022",
+    "due_date": "19/02/2023",
+    "total": 546.5,
+    "balance": 617,
+    "status": "Paid"
+  },
+  {
+    "invoice": 15,
+    "client_name": "Melisandra Barnett",
+    "client_type": "In-state",
+    "date": "09/11/2022",
+    "due_date": "20/03/2023",
+    "total": 104.7,
+    "balance": 844.6,
+    "status": "Partial Payment"
+  },
+  {
+    "invoice": 16,
+    "client_name": "Kare Ofer",
+    "client_type": "Out-state",
+    "date": "23/12/2022",
+    "due_date": "12/03/2023",
+    "total": 351,
+    "balance": 477.1,
+    "status": "Draft"
+  },
+  {
+    "invoice": 17,
+    "client_name": "Anderson Costar",
+    "client_type": "In-state",
+    "date": "30/01/2023",
+    "due_date": "06/03/2023",
+    "total": 538,
+    "balance": 615.8,
+    "status": "Paid"
+  },
+  {
+    "invoice": 18,
+    "client_name": "Pippa Petrolli",
+    "client_type": "Out-state",
+    "date": "14/12/2022",
+    "due_date": "16/03/2023",
+    "total": 826.2,
+    "balance": 163.1,
+    "status": "Partial Payment"
+  },
+  {
+    "invoice": 19,
+    "client_name": "Gianni Lindl",
+    "client_type": "In-state",
+    "date": "28/12/2022",
+    "due_date": "10/03/2023",
+    "total": 606.7,
+    "balance": 975.7,
+    "status": "Draft"
+  },
+  {
+    "invoice": 20,
+    "client_name": "Nikkie Jameson",
+    "client_type": "Out-state",
+    "date": "15/11/2022",
+    "due_date": "29/03/2023",
+    "total": 439.4,
+    "balance": 460.8,
+    "status": "Paid"
+  }
+]
